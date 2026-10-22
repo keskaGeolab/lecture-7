@@ -1,0 +1,29 @@
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+        A10000000000000000000001 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; }; buildConfigurationList = A10000000000000000000009; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = A10000000000000000000002; productRefGroup = A10000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000008,); };
+        A10000000000000000000002 = { isa = PBXGroup; children = (A10000000000000000000003, A10000000000000000000004,); sourceTree = "<group>"; };
+        A10000000000000000000003 = { isa = PBXGroup; children = (A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000C, A1000000000000000000000D,); path = PostsApp; sourceTree = "<group>"; };
+        A10000000000000000000004 = { isa = PBXGroup; children = (A10000000000000000000005,); name = Products; sourceTree = "<group>"; };
+        A10000000000000000000005 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A1000000000000000000000A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsAppApp.swift; sourceTree = "<group>"; };
+        A1000000000000000000000B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+        A1000000000000000000000C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+        A1000000000000000000000D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+        A10000000000000000000006 = { isa = PBXBuildFile; fileRef = A1000000000000000000000A; };
+        A10000000000000000000010 = { isa = PBXBuildFile; fileRef = A1000000000000000000000B; };
+        A10000000000000000000011 = { isa = PBXBuildFile; fileRef = A1000000000000000000000C; };
+        A10000000000000000000012 = { isa = PBXBuildFile; fileRef = A1000000000000000000000D; };
+        A10000000000000000000007 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000006, A10000000000000000000010, A10000000000000000000011, A10000000000000000000012,); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000008 = { isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000013; buildPhases = (A10000000000000000000007,); buildRules = (); dependencies = (); name = PostsApp; productName = PostsApp; productReference = A10000000000000000000005; productType = "com.apple.product-type.application"; };
+        A10000000000000000000009 = { isa = XCConfigurationList; buildConfigurations = (A10000000000000000000014, A10000000000000000000015,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000013 = { isa = XCConfigurationList; buildConfigurations = (A10000000000000000000016, A10000000000000000000017,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000014 = { isa = XCBuildConfiguration; buildSettings = { }; name = Debug; };
+        A10000000000000000000015 = { isa = XCBuildConfiguration; buildSettings = { }; name = Release; };
+        A10000000000000000000016 = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_CFBundleDisplayName = PostsApp; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.student.PostsApp; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+        A10000000000000000000017 = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_CFBundleDisplayName = PostsApp; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.student.PostsApp; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+    };
+    rootObject = A10000000000000000000001;
+}
